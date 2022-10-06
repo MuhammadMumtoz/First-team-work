@@ -2,4 +2,89 @@
   margin: 0%;
   padding: 0%;
 }
+
+.container-AM {
+  background-image: url(./backgroand.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+
+.content-Am {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 100px;
+}
+
+.container-left-AM h1 {
+  font-size: 80px;
+  color: #f7c20d;
+  padding-bottom: 30px;
+  font-family: Merriweather, serif !important;
+  font-weight: 400;
+}
+.container-left-AM p {
+  font-size: 15px;
+  line-height: 22px;
+}
+.container-left-AM a {
+  color: #f7c20d;
+  font-size: 30px;
+  margin: 10px;
+}
+.container-left-AM .icon-Am {
+  padding-top: 20px;
+}
+
+.container-right-AM {
+  padding-top: 10px;
+}
+.container-right-AM input {
+  margin: 10px;
+  width: 300px;
+  height: 10px;
+  padding-bottom: 30px;
+  background-color: transparent;
+  color: #b3b3b3;
+  border-color: #b3b3b3;
+  overflow: visible;
+}
+
+.container-right-AM .ios {
+  height: 40px;
+}
+
+.div-Am {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.div-Am .Am {
+  width: 100px;
+  height: 36px;
+  background-color: #f7c20d;
+  color: black;
+  font-size: 16px;
+}
+.div-Am .Am:hover {
+  color: white;
+}
+.div-Am .Am p {
+  padding-top: 8px;
+}
+
+.conplate-Am {
+  background-color: #333333;
+  height: 90px;
+}
+.conplate-Am p {
+  text-align: center;
+  padding-top: 35px;
+  color: white;
+}
+.conplate-Am span:hover {
+  color: #ca9d9a;
+}
 /*# sourceMappingURL=main.css.map */
