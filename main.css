@@ -178,4 +178,67 @@
   background: #ffffff;
   cursor: pointer;
 }
+
+.fbfirstpage {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(./image/pexelsphoto897717.jpeg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./image/pexelsphoto897717.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fb1left {
+  font-size: 35px;
+  color: #dfeb3e;
+  width: 80em;
+  padding-top: 10px;
+  padding-left: 10em;
+  text-align: center;
+}
+
+.fb1right {
+  padding-right: 15em;
+  color: white;
+}
+
+.fbsecondpage {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(./image/woodlandscapemountainsnature.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./image/woodlandscapemountainsnature.jpg);
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: justify;
+  height: 25em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.circle {
+  margin-right: 5em;
+  padding: 25px;
+  text-align: center;
+  border-radius: 50%;
+  color: beige;
+  background-color: black;
+}
+
+.fbcont {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.circle h3 {
+  color: #dfeb3e;
+}
 /*# sourceMappingURL=main.css.map */
