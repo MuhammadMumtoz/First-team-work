@@ -133,4 +133,46 @@
         }
       }
     }
+}.fbfirstpage{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(./image/pexelsphoto897717.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 60vh;
+    display: flex;
+    
+    }
+    
+    
+}.fb1left{
+    font-size: 35px;
+    color: rgb(223, 235, 62);
+    width: 80em;
+    padding-top: 10px;
+    padding-left: 10em;
+    text-align: center;
+}.fb1right{
+    padding-right: 15em; 
+    color: white
+}.fbsecondpage{
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(./image/woodlandscapemountainsnature.jpg);
+   
+    background-size: 100% 100%;;
+    display: flex;
+    text-align: justify;
+    height: 25em;
+    justify-content: center;
+}.circle{
+    margin-right: 5em;
+    padding: 25px;
+    text-align: center;
+    border-radius:50%;
+    color: beige;
+    background-color: black;
+}.fbcont{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}.circle h3{
+    color: rgb(223, 235, 62);;
 }
