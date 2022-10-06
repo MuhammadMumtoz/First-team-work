@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
-
+ Akhmadzoda
 .container-AM {
   background-image: url(./backgroand.jpeg);
   background-size: 100% 100%;
@@ -86,5 +86,181 @@
 }
 .conplate-Am span:hover {
   color: #ca9d9a;
+
+.BN-container .BN-ConnorQuinn {
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(./images/background-1.jpeg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/background-1.jpeg);
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media (max-width: 480px) {
+  .BN-container .BN-ConnorQuinn {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 10%;
+  }
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center {
+  width: 648px;
+  margin: auto;
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .Connor-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+  margin: auto;
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .Connor-image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+  .BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .Connor-image {
+    width: 40%;
+  }
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .text {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 35px;
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .Connor-name h5 {
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .chevron {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .chevron i {
+  color: #f7c20d;
+  font-size: 64px;
+}
+
+.BN-container .BN-ConnorQuinn .BN-ConnorQuinn-center .chevron i:hover {
+  color: crimson;
+}
+
+.BN-container .BN-Carousel {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .BN-container .BN-Carousel {
+    -ms-grid-rows: 25% 25% 25% 25%;
+        grid-template-rows: 25% 25% 25% 25%;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    height: 1520px;
+  }
+}
+
+.BN-container .BN-Carousel .gallery {
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .BN-container .BN-Carousel .gallery {
+    margin: 0%;
+    padding: 0%;
+  }
+}
+
+.BN-container .BN-Carousel .gallery img {
+  width: 100%;
+  height: 380px;
+}
+
+.BN-container .BN-Carousel .gallery .chevron-left {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+@media (max-width: 480px) {
+  .BN-container .BN-Carousel .gallery .chevron-left {
+    display: none;
+  }
+}
+
+.BN-container .BN-Carousel .gallery .chevron-right {
+  position: absolute;
+  top: 40%;
+  right: 40%;
+}
+
+@media (max-width: 480px) {
+  .BN-container .BN-Carousel .gallery .chevron-right {
+    display: none;
+  }
+}
+
+.BN-container .BN-Carousel .gallery i {
+  color: #f7c20d;
+  font-size: 64px;
+}
+
+.BN-container .BN-Carousel .gallery i:hover {
+  color: crimson;
+}
+
+.BN-container .BN-Carousel .dashes {
+  position: absolute;
+  width: 8%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  top: 92%;
+  left: 46%;
+  z-index: 2;
+}
+
+@media (max-width: 480px) {
+  .BN-container .BN-Carousel .dashes {
+    display: none;
+  }
+}
+
+.BN-container .BN-Carousel .dashes .dash {
+  height: 10px;
+  width: 30px;
+  background: grey;
+  opacity: 0.5;
+}
+
+.BN-container .BN-Carousel .dashes .dash:hover {
+  background: #ffffff;
+  cursor: pointer;
+ main
 }
 /*# sourceMappingURL=main.css.map */
