@@ -1,0 +1,87 @@
+@media (max-width: 480px){
+    .container-AM {
+        background-image: url(./backgroand.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: auto;
+        width: 480px;
+      }
+      
+      .content-Am {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .container-left-AM h1 {
+        font-size: 40px;
+        color: #f7c20d;
+        padding-bottom: 30px;
+        font-family: Merriweather, serif !important;
+        font-weight: 400;
+      }
+      .container-left-AM p {
+        font-size: 15px;
+        line-height: 22px;
+      }
+      .container-left-AM a {
+        color: #f7c20d;
+        font-size: 30px;
+        margin: 10px;
+      }
+      .container-left-AM .icon-Am {
+        padding-top: 20px;
+      }
+      
+      .container-right-AM {
+
+      }
+      .container-right-AM input {
+        margin: 10px;
+        width: 300px;
+        height: auto;
+        background-color: transparent;
+        color: #b3b3b3;
+        border-color: #b3b3b3;
+        overflow: visible;
+      }
+      
+      .container-right-AM .ios {
+        height: auto;
+      }
+      
+      .div-Am {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 10px;
+        align-items: center;
+        padding-bottom: 10px;
+    
+      }
+      .div-Am .Am {
+        align-items: center;
+        width: 100px;
+        height: auto;
+        background-color: #f7c20d;
+        color: black;
+        font-size: 16px;
+      }
+      .div-Am .Am:hover {
+        color: white;
+      }
+      .div-Am .Am p {
+        padding-top: 3px;
+      }
+      
+      .conplate-Am {
+        background-color: #333333;
+        height: auto;
+      }
+      .conplate-Am p {
+        text-align: center;
+        padding-top: 35px;
+        color: white;
+      }
+      .conplate-Am span:hover {
+        color: #ca9d9a;
+      }
+}
