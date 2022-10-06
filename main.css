@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
- Akhmadzoda
+
 .container-AM {
   background-image: url(./backgroand.jpeg);
   background-size: 100% 100%;
@@ -12,8 +12,12 @@
 }
 
 .content-Am {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 100px;
   padding-top: 100px;
 }
@@ -25,15 +29,18 @@
   font-family: Merriweather, serif !important;
   font-weight: 400;
 }
+
 .container-left-AM p {
   font-size: 15px;
   line-height: 22px;
 }
+
 .container-left-AM a {
   color: #f7c20d;
   font-size: 30px;
   margin: 10px;
 }
+
 .container-left-AM .icon-Am {
   padding-top: 20px;
 }
@@ -41,6 +48,7 @@
 .container-right-AM {
   padding-top: 10px;
 }
+
 .container-right-AM input {
   margin: 10px;
   width: 300px;
@@ -61,6 +69,7 @@
   padding-top: 10px;
   padding-left: 10px;
 }
+
 .div-Am .Am {
   width: 100px;
   height: 36px;
@@ -68,9 +77,11 @@
   color: black;
   font-size: 16px;
 }
+
 .div-Am .Am:hover {
   color: white;
 }
+
 .div-Am .Am p {
   padding-top: 8px;
 }
@@ -79,13 +90,21 @@
   background-color: #333333;
   height: 90px;
 }
+
 .conplate-Am p {
   text-align: center;
   padding-top: 35px;
   color: white;
 }
+
 .conplate-Am span:hover {
   color: #ca9d9a;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
 .BN-container .BN-ConnorQuinn {
   height: 100vh;
@@ -261,7 +280,6 @@
 .BN-container .BN-Carousel .dashes .dash:hover {
   background: #ffffff;
   cursor: pointer;
- main
 }
 
 .fbfirstpage {

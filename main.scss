@@ -1,101 +1,56 @@
- Akhmadzoda
-@import 'configuration';
-*{
-    margin: 0%;
-    padding: 0%;
+.fbfirstpage {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url(./image/pexelsphoto897717.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
 }
-
-.container-AM{
-    background-image: url(./backgroand.jpeg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
+.fb1left {
+  font-size: 35px;
+  color: rgb(223, 235, 62);
+  width: 80em;
+  padding-top: 10px;
+  padding-left: 10em;
+  text-align: center;
 }
-.content-Am{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 100px;
-
+.fb1right {
+  padding-right: 15em;
+  color: white;
 }
-.container-left-AM{
-    h1{
-        font-size: 80px;
-        color: #f7c20d;
-        padding-bottom: 30px;
-        font-family: Merriweather, serif !important;
-        font-weight: 400;
-    }
-    p{
-        font-size: 15px;
-        line-height: 22px;
-    }
-    a{
-        color: #f7c20d;
-        font-size: 30px;
-        margin: 10px;
-       
-    }
-    .icon-Am{
-        padding-top: 20px;
-    }
+.fbsecondpage {
+  width: 100%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url(./image/woodlandscapemountainsnature.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  text-align: justify;
+  height: 25em;
+  justify-content: center;
 }
-.container-right-AM{
-    padding-top: 10px;
-    
-    input{
-        margin: 10px;
-        width: 300px;
-        height: 10px;
-        padding-bottom: 30px;
-        background-color: transparent;;
-        color: #b3b3b3;
-        border-color: #b3b3b3;
-        overflow: visible;
-    }
-   
+.circle {
+  margin-right: 5em;
+  padding: 25px;
+  text-align: center;
+  border-radius: 50%;
+  color: beige;
+  background-color: black;
 }
-.container-right-AM {
-    .ios{
-        height: 40px;
-    }
-
+.fbcont {
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
-.div-Am{
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 10px;
-    .Am{
-        width: 100px;
-        height: 36px;
-        background-color: #f7c20d;
-        color: black;
-        font-size: 16px;
-    }
-    .Am:hover{
-        color: white;
-    }
-    .Am p{
-        padding-top: 8px;
-    }
-}
-.conplate-Am{
-    background-color: #333333;
-    height: 90px;
-    p{
-        text-align: center;
-        padding-top: 35px;
-        color: white;
-    }
-    span:hover{
-         color: #ca9d9a;;
-    }
-}
-@import "configuration";
-* {
-  margin: 0%;
-  padding: 0%;
+.circle h3 {
+  color: rgb(223, 235, 62);
 }
 .BN-container {
   .BN-ConnorQuinn {
@@ -109,9 +64,9 @@
     background-size: 100% 100%;
     display: flex;
     align-content: center;
-    @include sm{
-        box-sizing: border-box;
-        padding: 10%;
+    @include sm {
+      box-sizing: border-box;
+      padding: 10%;
     }
     .BN-ConnorQuinn-center {
       width: 648px;
@@ -126,8 +81,8 @@
           width: 100%;
           border-radius: 50%;
         }
-        @include sm{
-            width: 40%;
+        @include sm {
+          width: 40%;
         }
       }
       .text {
@@ -154,8 +109,8 @@
           color: #f7c20d;
           font-size: 64px;
         }
-        i:hover{
-            color: crimson;
+        i:hover {
+          color: crimson;
         }
       }
     }
@@ -165,107 +120,154 @@
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto;
     position: relative;
-    @include sm{
-        grid-template-rows: 25% 25% 25% 25%;
-        grid-template-columns: auto;
-        height: 1520px;
+    @include sm {
+      grid-template-rows: 25% 25% 25% 25%;
+      grid-template-columns: auto;
+      height: 1520px;
     }
     .gallery {
-        position: relative;
-        @include sm{
-            margin: 0%;
-            padding: 0%;
-        }
+      position: relative;
+      @include sm {
+        margin: 0%;
+        padding: 0%;
+      }
       img {
         width: 100%;
         height: 380px;
-    }
-    .chevron-left{
-        @include sm{
-            display: none;
+      }
+      .chevron-left {
+        @include sm {
+          display: none;
         }
         position: absolute;
         top: 40%;
         left: 40%;
-    }
-    .chevron-right{
-        @include sm{
-            display: none;
+      }
+      .chevron-right {
+        @include sm {
+          display: none;
         }
         position: absolute;
         top: 40%;
         right: 40%;
-    }
-    i {
-      color: #f7c20d;
-      font-size: 64px;
-    }
-    i:hover{
+      }
+      i {
+        color: #f7c20d;
+        font-size: 64px;
+      }
+      i:hover {
         color: crimson;
-    }
-    }
-    .dashes{
-        position: absolute;
-        width: 8%;
-        display: flex;
-        justify-content: space-between;
-        top: 92%;
-        left: 46%;
-        z-index: 2;
-        @include sm{
-            display: none;
-        }
-        .dash{
-            height: 10px;
-            width: 30px;
-            background: grey;
-            opacity: 0.5;
-        }
-        .dash:hover{
-            background: #ffffff;
-            cursor: pointer;
-        }
       }
     }
-}
-.fbfirstpage{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(./image/pexelsphoto897717.jpeg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 60vh;
-    display: flex;  
+    .dashes {
+      position: absolute;
+      width: 8%;
+      display: flex;
+      justify-content: space-between;
+      top: 92%;
+      left: 46%;
+      z-index: 2;
+      @include sm {
+        display: none;
+      }
+      .dash {
+        height: 10px;
+        width: 30px;
+        background: grey;
+        opacity: 0.5;
+      }
+      .dash:hover {
+        background: #ffffff;
+        cursor: pointer;
+      }
     }
-.fb1left{
-    font-size: 35px;
-    color: rgb(223, 235, 62);
-    width: 80em;
-    padding-top: 10px;
-    padding-left: 10em;
-    text-align: center;
-}.fb1right{
-    padding-right: 15em; 
-    color: white
-}.fbsecondpage{
-    width: 100%;
-    background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(./image/woodlandscapemountainsnature.jpg);
-   
-    background-size: 100% 100%;;
-    display: flex;
-    text-align: justify;
-    height: 25em;
-    justify-content: center;
-}.circle{
-    margin-right: 5em;
-    padding: 25px;
-    text-align: center;
-    border-radius:50%;
-    color: beige;
-    background-color: black;
-}.fbcont{
-    width: 50%;
-    display: flex;
-    align-items: center;
-}.circle h3{
-    color: rgb(223, 235, 62);;
+  }
 }
- main
+.container-AM {
+  background-image: url(./backgroand.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+}
+.content-Am {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 100px;
+}
+.container-left-AM {
+  h1 {
+    font-size: 80px;
+    color: #f7c20d;
+    padding-bottom: 30px;
+    font-family: Merriweather, serif !important;
+    font-weight: 400;
+  }
+  p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  a {
+    color: #f7c20d;
+    font-size: 30px;
+    margin: 10px;
+  }
+  .icon-Am {
+    padding-top: 20px;
+  }
+}
+.container-right-AM {
+  padding-top: 10px;
+
+  input {
+    margin: 10px;
+    width: 300px;
+    height: 10px;
+    padding-bottom: 30px;
+    background-color: transparent;
+    color: #b3b3b3;
+    border-color: #b3b3b3;
+    overflow: visible;
+  }
+}
+.container-right-AM {
+  .ios {
+    height: 40px;
+  }
+}
+.div-Am {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  .Am {
+    width: 100px;
+    height: 36px;
+    background-color: #f7c20d;
+    color: black;
+    font-size: 16px;
+  }
+  .Am:hover {
+    color: white;
+  }
+  .Am p {
+    padding-top: 8px;
+  }
+}
+.conplate-Am {
+  background-color: #333333;
+  height: 90px;
+  p {
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+  }
+  span:hover {
+    color: #ca9d9a;
+  }
+}
+@import "configuration";
+* {
+  margin: 0%;
+  padding: 0%;
+}
