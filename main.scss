@@ -1,3 +1,8 @@
+@import "configuration";
+* {
+  margin: 0%;
+  padding: 0%;
+}
 .fbfirstpage {
   background-image: linear-gradient(
       0deg,
@@ -266,8 +271,149 @@
     color: #ca9d9a;
   }
 }
-@import "configuration";
-* {
-  margin: 0%;
-  padding: 0%;
+
+.SA-container{
+  width: 100%;
+  .SA-header-content{
+      background-image: url(/img/SA-background-first.jpeg);
+      background-size: cover;
+      background-position: center;
+      .SA-slider{
+          display: grid;
+          grid-template-columns: 30% 70%;
+          grid-template-rows: auto;
+          // background-color: red;
+          height: 10vh;
+          @include sm{
+              display: flex;
+              justify-content: center;
+          }
+          .SA-slider-left{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding-right: 5em;
+              @include sm{
+                  padding: 0px;
+                  padding: 30px 0px;
+              }
+          }
+          .SA-slider-right{
+              @include sm{
+                  display: none;
+              }
+              ul{
+                  display: flex;
+                  list-style: none;
+                  justify-content: space-evenly;
+                  align-items: center;
+                  height: 10vh;
+                  li{
+                      a{
+                          text-decoration: none;
+                          color: lightgray;
+                          font-size: 16px;
+                          font-weight: 500;
+                          line-height: 24px;
+                          letter-spacing: 0.4px;
+                      }
+                      &:hover{
+                          cursor: pointer;
+                          padding: 24px 30px;
+                          transition: all ease-in 0.4s;
+                          color: red;
+                          // background-color: rgb(132, 132, 145);
+                      }
+                  }
+              }
+          }
+      }
+      .SA-header{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 35px 0px;
+          img{
+              padding-bottom: 20px;
+          }
+          h1{
+              font-size: 8rem;
+              letter-spacing: 4px;
+              color: #c5c50c;
+          }
+          b{
+              font-size: 1.25rem;
+              font-weight: 400;
+              line-height: 1.2;
+              letter-spacing: 4px;
+              text-transform: uppercase;
+              padding-top: 12px;
+              color: #cec8c8;
+          }
+          i{
+              font-size: 3em;
+              padding-top: 25px;
+              color: #c5c50c;
+          }
+      }
+  }
+  .SA-trip-list{
+      display: flex;
+      justify-content: space-around;
+      // align-items: center;
+      background-image: url(/img/SA-background-second.jpeg);
+      background-size: cover;
+      background-position: center;
+      padding: 40px;
+      @include sm{
+          display: block;
+      }
+      .SA-trip-list-left{
+          h1{
+              font-size: 4.1rem;
+              font-weight: 400;
+              line-height: 1.1;
+              color: #c5c50c;
+              @include sm{
+                  display: flex;
+                  justify-content: center;
+              }
+          }
+      }
+      .SA-trip-list-right{
+          width: 45%;
+          @include sm{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              width: 100%;
+          }
+          p{
+              font-size: 1rem;
+              line-height: 1.6;
+              padding: 15px 0px;
+              color: #cac5c5;
+              @include sm{
+                  // display: flex;
+                  // justify-content: center;
+                  // width: 234%;
+              }
+          }
+          button{
+              padding: 12px 18px;
+              background-color: #f7c20d;
+              border: none;
+              font-size: 16px;
+              font-weight: 400;
+              @include sm{
+                  // display: flex;
+                  // justify-content: center;
+                  // margin-left: 4em;
+
+
+              }
+          }
+      }
+  }
 }
