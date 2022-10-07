@@ -8,8 +8,13 @@
       0deg,
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
+<<<<<<< Updated upstream
     ),
+    url(./images/pexelsphoto897717.jpeg);
+=======
+    )
     url(./image/pexelsphoto897717.jpeg);
+>>>>>>> Stashed changes
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 60vh;
@@ -34,7 +39,7 @@
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
     ),
-    url(./image/woodlandscapemountainsnature.jpg);
+    url(./images/woodlandscapemountainsnature.jpg);
   background-size: 100% 100%;
   display: flex;
   text-align: justify;
@@ -189,7 +194,7 @@
   }
 }
 .container-AM {
-  background-image: url(./backgroand.jpeg);
+  background-image: url(./images/backgroand.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 80vh;
@@ -275,7 +280,7 @@
 .SA-container{
   width: 100%;
   .SA-header-content{
-      background-image: url(/img/SA-background-first.jpeg);
+      background-image: url(./images/SA-background-first.jpeg);
       background-size: cover;
       background-position: center;
       .SA-slider{
@@ -362,7 +367,7 @@
       display: flex;
       justify-content: space-around;
       // align-items: center;
-      background-image: url(/img/SA-background-second.jpeg);
+      background-image: url(./images/SA-background-second.jpeg);
       background-size: cover;
       background-position: center;
       padding: 40px;

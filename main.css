@@ -4,8 +4,8 @@
 }
 
 .fbfirstpage {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(./image/pexelsphoto897717.jpeg);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./image/pexelsphoto897717.jpeg);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(./images/pexelsphoto897717.jpeg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./images/pexelsphoto897717.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 60vh;
@@ -30,8 +30,8 @@
 
 .fbsecondpage {
   width: 100%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(./image/woodlandscapemountainsnature.jpg);
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./image/woodlandscapemountainsnature.jpg);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0.45))), url(./images/woodlandscapemountainsnature.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(./images/woodlandscapemountainsnature.jpg);
   background-size: 100% 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,7 +243,7 @@
 }
 
 .container-AM {
-  background-image: url(./backgroand.jpeg);
+  background-image: url(./images/backgroand.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 80vh;
@@ -345,7 +345,7 @@
 }
 
 .SA-container .SA-header-content {
-  background-image: url(/img/SA-background-first.jpeg);
+  background-image: url(./images/SA-background-first.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -475,7 +475,7 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-image: url(/img/SA-background-second.jpeg);
+  background-image: url(./images/SA-background-second.jpeg);
   background-size: cover;
   background-position: center;
   padding: 40px;
